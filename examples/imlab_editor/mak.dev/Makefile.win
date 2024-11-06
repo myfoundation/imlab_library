@@ -1,0 +1,189 @@
+# Project: imlab
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = ../../imlab/obj/mingw4/imlab_private.res
+OBJ      = ../../imlab/obj/mingw4/imlab.o ../../imlab/obj/mingw4/plugin_process.o ../../imlab/obj/mingw4/arithmetic.o ../../imlab/obj/mingw4/color.o ../../imlab/obj/mingw4/convolve.o ../../imlab/obj/mingw4/convolve_rank.o ../../imlab/obj/mingw4/geometric.o ../../imlab/obj/mingw4/histogram.o ../../imlab/obj/mingw4/logic.o ../../imlab/obj/mingw4/morphology_bin.o ../../imlab/obj/mingw4/morphology_gray.o ../../imlab/obj/mingw4/quantize.o ../../imlab/obj/mingw4/render.o ../../imlab/obj/mingw4/resize.o ../../imlab/obj/mingw4/threshold.o ../../imlab/obj/mingw4/tonegamut.o ../../imlab/obj/mingw4/transform.o ../../imlab/obj/mingw4/counter.o ../../imlab/obj/mingw4/statusbar.o ../../imlab/obj/mingw4/effects.o ../../imlab/obj/mingw4/button_images.o ../../imlab/obj/mingw4/imagefile.o ../../imlab/obj/mingw4/statistics.o ../../imlab/obj/mingw4/unarithmetic.o ../../imlab/obj/mingw4/fullscreen.o ../../imlab/obj/mingw4/saveas.o ../../imlab/obj/mingw4/dialogs.o ../../imlab/obj/mingw4/editattrib.o ../../imlab/obj/mingw4/editpalette.o ../../imlab/obj/mingw4/kernel.o ../../imlab/obj/mingw4/matrixwindow.o ../../imlab/obj/mingw4/bitmapwindow.o ../../imlab/obj/mingw4/histogramwindow.o ../../imlab/obj/mingw4/imagewindow.o ../../imlab/obj/mingw4/mainwindow_menu.o ../../imlab/obj/mingw4/mainwindow.o ../../imlab/obj/mingw4/im_clipboard.o ../../imlab/obj/mingw4/im_imagematch.o ../../imlab/obj/mingw4/im_imageview.o ../../imlab/obj/mingw4/utl_file.o ../../imlab/obj/mingw4/analyze.o ../../imlab/obj/mingw4/plugin_capture.o ../../imlab/obj/mingw4/imagecapture.o ../../imlab/obj/mingw4/binary.o ../../imlab/obj/mingw4/resultswindow.o ../../imlab/obj/mingw4/tridimwindow.o ../../imlab/obj/mingw4/splash.o ../../imlab/obj/mingw4/remotesens.o ../../imlab/obj/mingw4/mainwindow_file.o ../../imlab/obj/mingw4/mainwindow_image.o ../../imlab/obj/mingw4/mainwindow_view.o ../../imlab/obj/mingw4/documentlist.o ../../imlab/obj/mingw4/imagedocument.o $(RES)
+LINKOBJ  = ../../imlab/obj/mingw4/imlab.o ../../imlab/obj/mingw4/plugin_process.o ../../imlab/obj/mingw4/arithmetic.o ../../imlab/obj/mingw4/color.o ../../imlab/obj/mingw4/convolve.o ../../imlab/obj/mingw4/convolve_rank.o ../../imlab/obj/mingw4/geometric.o ../../imlab/obj/mingw4/histogram.o ../../imlab/obj/mingw4/logic.o ../../imlab/obj/mingw4/morphology_bin.o ../../imlab/obj/mingw4/morphology_gray.o ../../imlab/obj/mingw4/quantize.o ../../imlab/obj/mingw4/render.o ../../imlab/obj/mingw4/resize.o ../../imlab/obj/mingw4/threshold.o ../../imlab/obj/mingw4/tonegamut.o ../../imlab/obj/mingw4/transform.o ../../imlab/obj/mingw4/counter.o ../../imlab/obj/mingw4/statusbar.o ../../imlab/obj/mingw4/effects.o ../../imlab/obj/mingw4/button_images.o ../../imlab/obj/mingw4/imagefile.o ../../imlab/obj/mingw4/statistics.o ../../imlab/obj/mingw4/unarithmetic.o ../../imlab/obj/mingw4/fullscreen.o ../../imlab/obj/mingw4/saveas.o ../../imlab/obj/mingw4/dialogs.o ../../imlab/obj/mingw4/editattrib.o ../../imlab/obj/mingw4/editpalette.o ../../imlab/obj/mingw4/kernel.o ../../imlab/obj/mingw4/matrixwindow.o ../../imlab/obj/mingw4/bitmapwindow.o ../../imlab/obj/mingw4/histogramwindow.o ../../imlab/obj/mingw4/imagewindow.o ../../imlab/obj/mingw4/mainwindow_menu.o ../../imlab/obj/mingw4/mainwindow.o ../../imlab/obj/mingw4/im_clipboard.o ../../imlab/obj/mingw4/im_imagematch.o ../../imlab/obj/mingw4/im_imageview.o ../../imlab/obj/mingw4/utl_file.o ../../imlab/obj/mingw4/analyze.o ../../imlab/obj/mingw4/plugin_capture.o ../../imlab/obj/mingw4/imagecapture.o ../../imlab/obj/mingw4/binary.o ../../imlab/obj/mingw4/resultswindow.o ../../imlab/obj/mingw4/tridimwindow.o ../../imlab/obj/mingw4/splash.o ../../imlab/obj/mingw4/remotesens.o ../../imlab/obj/mingw4/mainwindow_file.o ../../imlab/obj/mingw4/mainwindow_image.o ../../imlab/obj/mingw4/mainwindow_view.o ../../imlab/obj/mingw4/documentlist.o ../../imlab/obj/mingw4/imagedocument.o $(RES)
+LIBS     = -L"D:/LNG/Dev-Cpp/MinGW64/lib" -L"D:/LNG/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -L"../../iup/lib/mingw4" -L"../../im/lib/mingw4" -L"../../cd/lib/mingw4" -L"../../zlib/lib/mingw4" -L"../../freetype/lib/mingw4" -L"../../ftgl/lib/mingw4" -L"" -mwindows -liupimglib -liupmatrixex -liupim -liup_plot -lcdgl -liupgl -liupcontrols -liup -lcd -lcdiup -lim -lim_process -lim_avi -lim_fftw -lim_jp2 -lim_capture -lcomctl32 -lvfw32 -lole32 -lopengl32 -lglu32 -lftgl -lcdcontextplus -lgdiplus -lfreetype6 -lzlib1
+INCS     = -I"D:/LNG/Dev-Cpp/MinGW64/include" -I"D:/LNG/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/LNG/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"../../iup/include" -I"../../im/include" -I"../../cd/include" -I"../src" -I"../src/dialogs" -I"../src/util" -I"../src/process" -I"../src/windows"
+CXXINCS  = -I"D:/LNG/Dev-Cpp/MinGW64/include" -I"D:/LNG/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/LNG/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/LNG/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"../../iup/include" -I"../../im/include" -I"../../cd/include" -I"../src" -I"../src/dialogs" -I"../src/util" -I"../src/process" -I"../src/windows"
+BIN      = ../bin/Win32_mingw4/imlab.exe
+CXXFLAGS = $(CXXINCS) -DUSE_FFTW -DUSE_AVI -DUSE_VIDEOCAPTURE
+CFLAGS   = $(INCS) -DUSE_FFTW -DUSE_AVI -DUSE_VIDEOCAPTURE
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+../../imlab/obj/mingw4/imlab.o: ../src/imlab.cpp
+	$(CPP) -c ../src/imlab.cpp -o ../../imlab/obj/mingw4/imlab.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/plugin_process.o: ../src/plugin_process.cpp
+	$(CC) -c ../src/plugin_process.cpp -o ../../imlab/obj/mingw4/plugin_process.o $(CFLAGS)
+
+../../imlab/obj/mingw4/arithmetic.o: ../src/process/arithmetic.cpp
+	$(CPP) -c ../src/process/arithmetic.cpp -o ../../imlab/obj/mingw4/arithmetic.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/color.o: ../src/process/color.cpp
+	$(CPP) -c ../src/process/color.cpp -o ../../imlab/obj/mingw4/color.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/convolve.o: ../src/process/convolve.cpp
+	$(CPP) -c ../src/process/convolve.cpp -o ../../imlab/obj/mingw4/convolve.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/convolve_rank.o: ../src/process/convolve_rank.cpp
+	$(CPP) -c ../src/process/convolve_rank.cpp -o ../../imlab/obj/mingw4/convolve_rank.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/geometric.o: ../src/process/geometric.cpp
+	$(CPP) -c ../src/process/geometric.cpp -o ../../imlab/obj/mingw4/geometric.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/histogram.o: ../src/process/histogram.cpp
+	$(CPP) -c ../src/process/histogram.cpp -o ../../imlab/obj/mingw4/histogram.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/logic.o: ../src/process/logic.cpp
+	$(CPP) -c ../src/process/logic.cpp -o ../../imlab/obj/mingw4/logic.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/morphology_bin.o: ../src/process/morphology_bin.cpp
+	$(CPP) -c ../src/process/morphology_bin.cpp -o ../../imlab/obj/mingw4/morphology_bin.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/morphology_gray.o: ../src/process/morphology_gray.cpp
+	$(CPP) -c ../src/process/morphology_gray.cpp -o ../../imlab/obj/mingw4/morphology_gray.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/quantize.o: ../src/process/quantize.cpp
+	$(CPP) -c ../src/process/quantize.cpp -o ../../imlab/obj/mingw4/quantize.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/render.o: ../src/process/render.cpp
+	$(CPP) -c ../src/process/render.cpp -o ../../imlab/obj/mingw4/render.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/resize.o: ../src/process/resize.cpp
+	$(CPP) -c ../src/process/resize.cpp -o ../../imlab/obj/mingw4/resize.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/threshold.o: ../src/process/threshold.cpp
+	$(CPP) -c ../src/process/threshold.cpp -o ../../imlab/obj/mingw4/threshold.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/tonegamut.o: ../src/process/tonegamut.cpp
+	$(CPP) -c ../src/process/tonegamut.cpp -o ../../imlab/obj/mingw4/tonegamut.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/transform.o: ../src/process/transform.cpp
+	$(CPP) -c ../src/process/transform.cpp -o ../../imlab/obj/mingw4/transform.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/counter.o: ../src/util/counter.c
+	$(CC) -c ../src/util/counter.c -o ../../imlab/obj/mingw4/counter.o $(CFLAGS)
+
+../../imlab/obj/mingw4/statusbar.o: ../src/util/statusbar.c
+	$(CC) -c ../src/util/statusbar.c -o ../../imlab/obj/mingw4/statusbar.o $(CFLAGS)
+
+../../imlab/obj/mingw4/effects.o: ../src/process/effects.cpp
+	$(CPP) -c ../src/process/effects.cpp -o ../../imlab/obj/mingw4/effects.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/button_images.o: ../src/button_images.cpp
+	$(CPP) -c ../src/button_images.cpp -o ../../imlab/obj/mingw4/button_images.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/imagefile.o: ../src/imagefile.cpp
+	$(CPP) -c ../src/imagefile.cpp -o ../../imlab/obj/mingw4/imagefile.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/statistics.o: ../src/process/statistics.cpp
+	$(CPP) -c ../src/process/statistics.cpp -o ../../imlab/obj/mingw4/statistics.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/unarithmetic.o: ../src/process/unarithmetic.cpp
+	$(CPP) -c ../src/process/unarithmetic.cpp -o ../../imlab/obj/mingw4/unarithmetic.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/fullscreen.o: ../src/dialogs/fullscreen.cpp
+	$(CPP) -c ../src/dialogs/fullscreen.cpp -o ../../imlab/obj/mingw4/fullscreen.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/saveas.o: ../src/dialogs/saveas.cpp
+	$(CPP) -c ../src/dialogs/saveas.cpp -o ../../imlab/obj/mingw4/saveas.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/dialogs.o: ../src/dialogs/dialogs.cpp
+	$(CPP) -c ../src/dialogs/dialogs.cpp -o ../../imlab/obj/mingw4/dialogs.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/editattrib.o: ../src/dialogs/editattrib.cpp
+	$(CPP) -c ../src/dialogs/editattrib.cpp -o ../../imlab/obj/mingw4/editattrib.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/editpalette.o: ../src/dialogs/editpalette.cpp
+	$(CPP) -c ../src/dialogs/editpalette.cpp -o ../../imlab/obj/mingw4/editpalette.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/kernel.o: ../src/process/kernel.cpp
+	$(CPP) -c ../src/process/kernel.cpp -o ../../imlab/obj/mingw4/kernel.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/matrixwindow.o: ../src/windows/matrixwindow.cpp
+	$(CPP) -c ../src/windows/matrixwindow.cpp -o ../../imlab/obj/mingw4/matrixwindow.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/bitmapwindow.o: ../src/windows/bitmapwindow.cpp
+	$(CPP) -c ../src/windows/bitmapwindow.cpp -o ../../imlab/obj/mingw4/bitmapwindow.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/histogramwindow.o: ../src/windows/histogramwindow.cpp
+	$(CPP) -c ../src/windows/histogramwindow.cpp -o ../../imlab/obj/mingw4/histogramwindow.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/imagewindow.o: ../src/windows/imagewindow.cpp
+	$(CPP) -c ../src/windows/imagewindow.cpp -o ../../imlab/obj/mingw4/imagewindow.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/mainwindow_menu.o: ../src/windows/mainwindow_menu.cpp
+	$(CPP) -c ../src/windows/mainwindow_menu.cpp -o ../../imlab/obj/mingw4/mainwindow_menu.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/mainwindow.o: ../src/windows/mainwindow.cpp
+	$(CPP) -c ../src/windows/mainwindow.cpp -o ../../imlab/obj/mingw4/mainwindow.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/im_clipboard.o: ../src/util/im_clipboard.c
+	$(CC) -c ../src/util/im_clipboard.c -o ../../imlab/obj/mingw4/im_clipboard.o $(CFLAGS)
+
+../../imlab/obj/mingw4/im_imagematch.o: ../src/util/im_imagematch.c
+	$(CC) -c ../src/util/im_imagematch.c -o ../../imlab/obj/mingw4/im_imagematch.o $(CFLAGS)
+
+../../imlab/obj/mingw4/im_imageview.o: ../src/util/im_imageview.c
+	$(CC) -c ../src/util/im_imageview.c -o ../../imlab/obj/mingw4/im_imageview.o $(CFLAGS)
+
+../../imlab/obj/mingw4/utl_file.o: ../src/util/utl_file.c
+	$(CC) -c ../src/util/utl_file.c -o ../../imlab/obj/mingw4/utl_file.o $(CFLAGS)
+
+../../imlab/obj/mingw4/analyze.o: ../src/process/analyze.cpp
+	$(CPP) -c ../src/process/analyze.cpp -o ../../imlab/obj/mingw4/analyze.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/plugin_capture.o: ../src/plugin_capture.cpp
+	$(CPP) -c ../src/plugin_capture.cpp -o ../../imlab/obj/mingw4/plugin_capture.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/imagecapture.o: ../src/dialogs/imagecapture.cpp
+	$(CPP) -c ../src/dialogs/imagecapture.cpp -o ../../imlab/obj/mingw4/imagecapture.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/binary.o: ../src/process/binary.cpp
+	$(CPP) -c ../src/process/binary.cpp -o ../../imlab/obj/mingw4/binary.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/resultswindow.o: ../src/windows/resultswindow.cpp
+	$(CPP) -c ../src/windows/resultswindow.cpp -o ../../imlab/obj/mingw4/resultswindow.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/tridimwindow.o: ../src/windows/tridimwindow.cpp
+	$(CPP) -c ../src/windows/tridimwindow.cpp -o ../../imlab/obj/mingw4/tridimwindow.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/splash.o: ../src/splash.cpp
+	$(CPP) -c ../src/splash.cpp -o ../../imlab/obj/mingw4/splash.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/remotesens.o: ../src/process/remotesens.cpp
+	$(CPP) -c ../src/process/remotesens.cpp -o ../../imlab/obj/mingw4/remotesens.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/mainwindow_file.o: ../src/windows/mainwindow_file.cpp
+	$(CPP) -c ../src/windows/mainwindow_file.cpp -o ../../imlab/obj/mingw4/mainwindow_file.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/mainwindow_image.o: ../src/windows/mainwindow_image.cpp
+	$(CPP) -c ../src/windows/mainwindow_image.cpp -o ../../imlab/obj/mingw4/mainwindow_image.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/mainwindow_view.o: ../src/windows/mainwindow_view.cpp
+	$(CPP) -c ../src/windows/mainwindow_view.cpp -o ../../imlab/obj/mingw4/mainwindow_view.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/documentlist.o: ../src/documentlist.cpp
+	$(CPP) -c ../src/documentlist.cpp -o ../../imlab/obj/mingw4/documentlist.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/imagedocument.o: ../src/imagedocument.cpp
+	$(CPP) -c ../src/imagedocument.cpp -o ../../imlab/obj/mingw4/imagedocument.o $(CXXFLAGS)
+
+../../imlab/obj/mingw4/imlab_private.res: imlab_private.rc 
+	$(WINDRES) -i imlab_private.rc --input-format=rc -o ../../imlab/obj/mingw4/imlab_private.res -O coff  --include-dir ../src
+

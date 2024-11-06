@@ -1,0 +1,10 @@
+README for ImLab
+
+  ImLab is a free open source graphical application for Scientific Image Processing that runs in Windows, Linux and many other UNIX systems. It supports multiple windows, data types including 32 bit integers, real numbers and complex numbers. It is implemented in C++. It has many image operations and supports several file formats.
+  
+  Build instructions and usage are available in the ImLab documentation.
+
+  For complete information, visit the ImLab web site at http://imlab.sourceforge.net/
+  or access its documentation in the HTML folder.
+
+(end of README)

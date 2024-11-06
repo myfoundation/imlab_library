@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\src\buttons.c" open="0" top="0" tabpos="0">
+		<Cursor position="376" topLine="3" />
+	</File>
+	<File name="..\src\captureplugin.c" open="0" top="0" tabpos="0">
+		<Cursor position="1601" topLine="50" />
+	</File>
+	<File name="..\src\dialogs\dialogs.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="142" topLine="0" />
+	</File>
+	<File name="..\src\dialogs\imagecapture.c" open="0" top="0" tabpos="0">
+		<Cursor position="2835" topLine="109" />
+	</File>
+	<File name="..\src\windows\mainwindow.c" open="0" top="0" tabpos="0">
+		<Cursor position="34494" topLine="1383" />
+	</File>
+	<File name="..\src\windows\tridimwindow.c" open="0" top="0" tabpos="0">
+		<Cursor position="824" topLine="26" />
+	</File>
+</CodeBlocks_layout_file>

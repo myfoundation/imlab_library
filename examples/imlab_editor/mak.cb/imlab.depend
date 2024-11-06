@@ -1,0 +1,938 @@
+# depslib dependency file v1.0
+1229706084 source:d:\tecgraf\imlab\src\buttons.c
+	<iup.h>
+	<stdlib.h>
+	<stdio.h>
+
+1245814422 d:\tecgraf\iup\include\iup.h
+	<iupkey.h>
+	<iupdef.h>
+
+1228842039 d:\tecgraf\iup\include\iupkey.h
+
+1229883500 d:\tecgraf\iup\include\iupdef.h
+
+1230058225 source:d:\tecgraf\imlab\src\captureplugin.c
+	<iup.h>
+	<iupcontrols.h>
+	<cd.h>
+	<im.h>
+	<im_capture.h>
+	<im_process.h>
+	"imlab.h"
+	"imagewindow.h"
+	"dialogs.h"
+	"imagecapture.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1242790578 d:\tecgraf\iup\include\iupcontrols.h
+
+1246036922 d:\tecgraf\cd\include\cd.h
+	"cd_old.h"
+
+1245690956 d:\tecgraf\cd\include\cd_old.h
+
+1194954929 d:\tecgraf\im\include\im.h
+	"old_im.h"
+
+1194954929 d:\tecgraf\im\include\old_im.h
+
+1197148989 d:\tecgraf\im\include\im_capture.h
+
+1245876857 d:\tecgraf\im\include\im_process.h
+	"im_process_pon.h"
+	"im_process_loc.h"
+	"im_process_glo.h"
+	"im_process_ana.h"
+
+1197148989 d:\tecgraf\im\include\im_process_pon.h
+	"im_image.h"
+
+1194978409 d:\tecgraf\im\include\im_image.h
+
+1194954929 d:\tecgraf\im\include\im_process_loc.h
+	"im_image.h"
+
+1194954929 d:\tecgraf\im\include\im_process_glo.h
+	"im_image.h"
+
+1194954929 d:\tecgraf\im\include\im_process_ana.h
+	"im_image.h"
+
+1229706278 d:\tecgraf\imlab\src\imlab.h
+
+1100799533 d:\tecgraf\imlab\src\windows\imagewindow.h
+	"imagefile.h"
+	"im_view.h"
+
+1088540051 d:\tecgraf\imlab\src\imagefile.h
+	<im.h>
+	<im_image.h>
+	<im_util.h>
+
+1194954929 d:\tecgraf\im\include\im_util.h
+
+1088540055 d:\tecgraf\imlab\src\util\im_view.h
+	<cd.h>
+	<iup.h>
+	<im.h>
+	<im_image.h>
+
+1229991224 d:\tecgraf\imlab\src\dialogs\dialogs.h
+	"imagefile.h"
+
+1088540053 d:\tecgraf\imlab\src\dialogs\imagecapture.h
+
+1230057627 source:d:\tecgraf\imlab\src\dialogs\dialogs.cpp
+	<iup.h>
+	<iupcontrols.h>
+	<iupkey.h>
+	<im.h>
+	<im_binfile.h>
+	<cd.h>
+	<cdnative.h>
+	"imagefile.h"
+	"imlab.h"
+	"utl_file.h"
+	"dialogs.h"
+	"im_view.h"
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdarg.h>
+
+1194954929 d:\tecgraf\im\include\im_binfile.h
+	"im_util.h"
+
+1167343797 d:\tecgraf\cd\include\cdnative.h
+
+1088540055 d:\tecgraf\imlab\src\util\utl_file.h
+
+1230057627 source:d:\tecgraf\imlab\src\dialogs\editattrib.cpp
+	<iup.h>
+	<iupcontrols.h>
+	<iupkey.h>
+	<im.h>
+	<im_binfile.h>
+	<cd.h>
+	"imagefile.h"
+	"imlab.h"
+	"utl_file.h"
+	"dialogs.h"
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdarg.h>
+
+1230233683 source:d:\tecgraf\imlab\src\dialogs\editpalette.cpp
+	<iup.h>
+	<iupcontrols.h>
+	<iupkey.h>
+	<im.h>
+	<cd.h>
+	<cdiup.h>
+	<cddbuf.h>
+	"dialogs.h"
+	"statusbar.h"
+	"imlab.h"
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1167343797 d:\tecgraf\cd\include\cdiup.h
+
+1167343797 d:\tecgraf\cd\include\cddbuf.h
+
+1088540055 d:\tecgraf\imlab\src\util\statusbar.h
+
+1230233608 source:d:\tecgraf\imlab\src\dialogs\fullscreen.c
+	<im.h>
+	<cd.h>
+	<cdiup.h>
+	<iup.h>
+	"imlab.h"
+	"imagewindow.h"
+	"im_view.h"
+	"dialogs.h"
+	"utl_list.h"
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1088540055 d:\tecgraf\imlab\src\util\utl_list.h
+
+1230233627 source:d:\tecgraf\imlab\src\dialogs\imagecapture.c
+	<iup.h>
+	<iupcontrols.h>
+	<cd.h>
+	<cdiup.h>
+	<im.h>
+	<im_image.h>
+	<im_util.h>
+	<im_capture.h>
+	<im_counter.h>
+	"dialogs.h"
+	"im_view.h"
+	"imagecapture.h"
+	"imlab.h"
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1195847585 d:\tecgraf\im\include\im_counter.h
+
+1230057627 source:d:\tecgraf\imlab\src\dialogs\saveas.cpp
+	<iup.h>
+	<iupcontrols.h>
+	<iupkey.h>
+	<im.h>
+	<im_binfile.h>
+	<cd.h>
+	"imlab.h"
+	"utl_file.h"
+	"dialogs.h"
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdarg.h>
+
+1230057628 source:d:\tecgraf\imlab\src\imagefile.cpp
+	<im.h>
+	<im_raw.h>
+	<iup.h>
+	<iupcontrols.h>
+	"imagefile.h"
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1194954929 d:\tecgraf\im\include\im_raw.h
+
+1196092039 source:d:\tecgraf\imlab\src\imlab.rc
+
+1225365900 source:d:\tecgraf\imlab\src\imlabmain.c
+	<iup.h>
+	<iupcontrols.h>
+	<iupgl.h>
+	<im_format_jp2.h>
+	<im_format_avi.h>
+	<im_format_wmv.h>
+	"imlab.h"
+	"imagewindow.h"
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1228842039 d:\tecgraf\iup\include\iupgl.h
+
+1245876936 d:\tecgraf\im\include\im_format_jp2.h
+
+1245876996 d:\tecgraf\im\include\im_format_avi.h
+
+1245876971 d:\tecgraf\im\include\im_format_wmv.h
+
+1164128758 source:d:\tecgraf\imlab\src\process\analyze.cpp
+	"imagewindow.h"
+	"resultswindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	"counter.h"
+	<im_palette.h>
+	<im_attrib.h>
+	<im_convert.h>
+	<im_process.h>
+	<cd.h>
+	<cdirgb.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<math.h>
+	<assert.h>
+
+1196695571 d:\tecgraf\imlab\src\windows\resultswindow.h
+
+1230054397 d:\tecgraf\imlab\src\processplugin.h
+	<iup.h>
+	<iupcontrols.h>
+	<im_image.h>
+	<im_util.h>
+	"im_imagematch.h"
+	"im_view.h"
+
+1096065988 d:\tecgraf\imlab\src\util\im_imagematch.h
+
+1100094675 d:\tecgraf\imlab\src\util\counter.h
+	<iup.h>
+
+1194954929 d:\tecgraf\im\include\im_palette.h
+
+1194954929 d:\tecgraf\im\include\im_attrib.h
+	"im_attrib_flat.h"
+
+1194954929 d:\tecgraf\im\include\im_attrib_flat.h
+
+1196556325 d:\tecgraf\im\include\im_convert.h
+	"im_image.h"
+
+1168024486 d:\tecgraf\cd\include\cdirgb.h
+
+1230057627 source:d:\tecgraf\imlab\src\process\arithmetic.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"counter.h"
+	"dialogs.h"
+	<im_process.h>
+	<im_complex.h>
+	<im_math_op.h>
+	<stdlib.h>
+	<memory.h>
+	<string.h>
+
+1194954929 d:\tecgraf\im\include\im_complex.h
+	"im_math.h"
+
+1227031245 d:\tecgraf\im\include\im_math.h
+	<math.h>
+	"im_util.h"
+
+1194954929 d:\tecgraf\im\include\im_math_op.h
+	"im_complex.h"
+
+1135291483 source:d:\tecgraf\imlab\src\process\binary.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	"kernel.h"
+	"counter.h"
+	<im_process.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<math.h>
+	<string.h>
+
+1088540053 d:\tecgraf\imlab\src\process\kernel.h
+
+1143312920 source:d:\tecgraf\imlab\src\process\chaincode.cpp
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<limits.h>
+	<cd.h>
+	<cdirgb.h>
+	<im.h>
+	<im_util.h>
+	<im_image.h>
+
+1230057627 source:d:\tecgraf\imlab\src\process\color.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	<im_process.h>
+	<im_convert.h>
+	<im_colorhsi.h>
+	<im_palette.h>
+	<stdlib.h>
+	<memory.h>
+	<math.h>
+	<string.h>
+
+1227009505 d:\tecgraf\im\include\im_colorhsi.h
+
+1230057627 source:d:\tecgraf\imlab\src\process\convolve.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	"kernel.h"
+	<im_process.h>
+	<im_kernel.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1194954929 d:\tecgraf\im\include\im_kernel.h
+
+1230057627 source:d:\tecgraf\imlab\src\process\convolve_rank.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"dialogs.h"
+	"processplugin.h"
+	<im_process.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1230057628 source:d:\tecgraf\imlab\src\process\effects.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"counter.h"
+	"dialogs.h"
+	<iupcontrols.h>
+	<im_process.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1230057628 source:d:\tecgraf\imlab\src\process\geometric.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	"counter.h"
+	<im_process.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+	<math.h>
+
+1230057628 source:d:\tecgraf\imlab\src\process\histogram.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	<im_process.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+	<math.h>
+
+1230062510 source:d:\tecgraf\imlab\src\process\houghcircle.c
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<cd.h>
+	<cdirgb.h>
+	<im.h>
+	<im_process.h>
+	<im_convert.h>
+	<iup.h>
+	"dialogs.h"
+	"utl_list.h"
+	"counter.h"
+
+1230057647 source:d:\tecgraf\imlab\src\process\imp\imp.c
+	<iup.h>
+	<cd.h>
+	<im.h>
+	<im_convert.h>
+	<im_process.h>
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"utl_list.h"
+	"counter.h"
+	"dialogs.h"
+	"imp.h"
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1088540057 d:\tecgraf\imlab\src\process\imp\imp.h
+
+1088540057 source:d:\tecgraf\imlab\src\process\imp\impbrush.c
+	<im.h>
+	"im_image.h"
+	"im_util.h"
+	"utl_list.h"
+	"counter.h"
+	"imp.h"
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<memory.h>
+
+1088540057 source:d:\tecgraf\imlab\src\process\imp\impclip.c
+	<math.h>
+	<im.h>
+	"im_image.h"
+	"im_util.h"
+	"utl_list.h"
+	"counter.h"
+	"imp.h"
+
+1088540057 source:d:\tecgraf\imlab\src\process\imp\impfilter.c
+	<math.h>
+	<stdlib.h>
+	<memory.h>
+	<im.h>
+	"im_image.h"
+	"im_util.h"
+	"utl_list.h"
+	"counter.h"
+	"imp.h"
+
+1088540057 source:d:\tecgraf\imlab\src\process\imp\imppaint.c
+	<im.h>
+	"im_image.h"
+	"im_util.h"
+	"utl_list.h"
+	"counter.h"
+	"imp.h"
+	<math.h>
+	<memory.h>
+
+1088540057 source:d:\tecgraf\imlab\src\process\imp\imptheta.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<memory.h>
+	<im.h>
+	"im_image.h"
+	"im_util.h"
+	"utl_list.h"
+	"counter.h"
+	"imp.h"
+
+1230052126 source:d:\tecgraf\imlab\src\process\kernel.cpp
+	<iup.h>
+	<iupcontrols.h>
+	<iupkey.h>
+	<iupmask.h>
+	<im.h>
+	<im_process.h>
+	<im_convert.h>
+	<im_kernel.h>
+	"kernel.h"
+	"utl_file.h"
+	"dialogs.h"
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+
+1229883500 d:\tecgraf\iup\include\iupmask.h
+
+1230057628 source:d:\tecgraf\imlab\src\process\logic.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	<im_process.h>
+	<stdlib.h>
+	<memory.h>
+	<string.h>
+
+1230057628 source:d:\tecgraf\imlab\src\process\morphology_bin.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	"kernel.h"
+	<im_process.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<math.h>
+	<string.h>
+
+1230057628 source:d:\tecgraf\imlab\src\process\morphology_gray.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	"kernel.h"
+	"counter.h"
+	<im_process.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1230057628 source:d:\tecgraf\imlab\src\process\quantize.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	<im_process.h>
+	<im_convert.h>
+	<stdlib.h>
+	<memory.h>
+	<string.h>
+
+1230057628 source:d:\tecgraf\imlab\src\process\render.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	<iupcontrols.h>
+	<im_process.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1230057628 source:d:\tecgraf\imlab\src\process\resize.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	"counter.h"
+	<im_process.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1227024686 source:d:\tecgraf\imlab\src\process\statistics.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	<im_process.h>
+	<im_convert.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+	<math.h>
+
+1230057628 source:d:\tecgraf\imlab\src\process\threshold.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	<im_process.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+	<math.h>
+
+1230057628 source:d:\tecgraf\imlab\src\process\tonegamut.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"counter.h"
+	"dialogs.h"
+	<im_process.h>
+	<im_convert.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+	<math.h>
+
+1230057628 source:d:\tecgraf\imlab\src\process\transform.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	"counter.h"
+	<im_process.h>
+	<im_convert.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+	<math.h>
+	"flwt.h"
+	"mallat.h"
+
+1127920403 source:d:\tecgraf\imlab\src\process\unarithmetic.cpp
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"counter.h"
+	<im_process.h>
+	<im_palette.h>
+	<stdlib.h>
+	<memory.h>
+	<string.h>
+
+1143408949 source:d:\tecgraf\imlab\src\process\watershed.cpp
+	<im.h>
+	<im_util.h>
+	<im_convert.h>
+	"im_process_loc.h"
+	"im_process_pon.h"
+	"im_process_glo.h"
+	"im_process_ana.h"
+	<stdlib.h>
+	<memory.h>
+	<math.h>
+
+1135291397 source:d:\tecgraf\imlab\src\process\watershed1.cpp
+	<im.h>
+	<im_util.h>
+	<im_convert.h>
+	"im_process_loc.h"
+	"im_process_pon.h"
+	<stdlib.h>
+	<memory.h>
+	<math.h>
+	<queue>
+
+1230057628 source:d:\tecgraf\imlab\src\processplugin.c
+	<iup.h>
+	<cd.h>
+	<im.h>
+	<im_counter.h>
+	"processplugin.h"
+	"imagewindow.h"
+	"utl_list.h"
+	"counter.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1229993655 source:d:\tecgraf\imlab\src\splash.c
+	<iup.h>
+	"imlab.h"
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1234893622 source:d:\tecgraf\imlab\src\util\counter.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"counter.h"
+
+1148159689 source:d:\tecgraf\imlab\src\util\im_clipboard.c
+	<windows.h>
+	<stdlib.h>
+	"im_clipboard.h"
+	<im_dib.h>
+
+1088540055 d:\tecgraf\imlab\src\util\im_clipboard.h
+	<im.h>
+	<im_image.h>
+
+1194954929 d:\tecgraf\im\include\im_dib.h
+
+1096066119 source:d:\tecgraf\imlab\src\util\im_imagematch.c
+	<im.h>
+	<im_image.h>
+	"im_imagematch.h"
+	<stdlib.h>
+	<memory.h>
+
+1230236376 source:d:\tecgraf\imlab\src\util\im_view.c
+	"im_view.h"
+	<im_convert.h>
+	<im_util.h>
+	<cdiup.h>
+	<cdirgb.h>
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+
+1230233764 source:d:\tecgraf\imlab\src\util\statusbar.c
+	<iup.h>
+	<cd.h>
+	<cdiup.h>
+	<im.h>
+	"statusbar.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1093037776 source:d:\tecgraf\imlab\src\util\utl_file.c
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+	"utl_file.h"
+	<windows.h>
+	<io.h>
+	<unistd.h>
+	<ctype.h>
+	<errno.h>
+
+1088540055 source:d:\tecgraf\imlab\src\util\utl_list.c
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<memory.h>
+	<time.h>
+	"utl_list.h"
+
+1230059450 source:d:\tecgraf\imlab\src\windows\bitmapwindow.c
+	"imagewindow.h"
+	"matrixwindow.h"
+	"imlab.h"
+	"dialogs.h"
+	"statusbar.h"
+	"im_imagematch.h"
+	<im_convert.h>
+	<im_palette.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1145820976 d:\tecgraf\imlab\src\windows\matrixwindow.h
+	"imagewindow.h"
+
+1230236164 source:d:\tecgraf\imlab\src\windows\histogramwindow.c
+	"histogramwindow.h"
+	"imlab.h"
+	"statusbar.h"
+	<cdiup.h>
+	<cddbuf.h>
+	<im_process.h>
+	<iupmask.h>
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+
+1109962110 d:\tecgraf\imlab\src\windows\histogramwindow.h
+	"imagewindow.h"
+
+1230059765 source:d:\tecgraf\imlab\src\windows\imagewindow.c
+	"imagewindow.h"
+	"histogramwindow.h"
+	"tridimwindow.h"
+	"matrixwindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	<im_convert.h>
+	"utl_file.h"
+	"utl_list.h"
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+
+1143432604 d:\tecgraf\imlab\src\windows\tridimwindow.h
+	"imagewindow.h"
+
+1230057652 source:d:\tecgraf\imlab\src\windows\imagewindowmenus.c
+	"imagewindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	"utl_file.h"
+	"im_clipboard.h"
+	<cdprint.h>
+	<cdps.h>
+	<cdiup.h>
+	<cdclipbd.h>
+	<cdcgm.h>
+	<cdirgb.h>
+	<cdwmf.h>
+	<cdemf.h>
+	<iupcontrols.h>
+	<im_convert.h>
+	<im_palette.h>
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+
+1167343797 d:\tecgraf\cd\include\cdprint.h
+
+1167343797 d:\tecgraf\cd\include\cdps.h
+
+1167343797 d:\tecgraf\cd\include\cdclipbd.h
+
+1167343797 d:\tecgraf\cd\include\cdcgm.h
+
+1167343797 d:\tecgraf\cd\include\cdwmf.h
+
+1167343797 d:\tecgraf\cd\include\cdemf.h
+
+1230235599 source:d:\tecgraf\imlab\src\windows\mainwindow.c
+	"imagewindow.h"
+	"resultswindow.h"
+	"imlab.h"
+	"processplugin.h"
+	"dialogs.h"
+	"statusbar.h"
+	"im_clipboard.h"
+	<cdcgm.h>
+	<cdirgb.h>
+	<cdwmf.h>
+	<cdemf.h>
+	<im_counter.h>
+	<im_lib.h>
+	"utl_list.h"
+	"utl_file.h"
+	"counter.h"
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+	<stdarg.h>
+	<assert.h>
+	<time.h>
+
+1246036402 d:\tecgraf\im\include\im_lib.h
+
+1230052029 source:d:\tecgraf\imlab\src\windows\matrixwindow.c
+	"matrixwindow.h"
+	"imlab.h"
+	"statusbar.h"
+	<iupcontrols.h>
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"im_clipboard.h"
+
+1230052029 source:d:\tecgraf\imlab\src\windows\resultswindow.cpp
+	<iup.h>
+	<iupcontrols.h>
+	<im.h>
+	<im_util.h>
+	<im_attrib.h>
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"imlab.h"
+	"resultswindow.h"
+	"im_clipboard.h"
+	"utl_file.h"
+
+1230052029 source:d:\tecgraf\imlab\src\windows\tridimwindow.c
+	"tridimwindow.h"
+	"imlab.h"
+	"statusbar.h"
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<iupgl.h>
+	<memory.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+

@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dialogs">
+      <UniqueIdentifier>{45790870-3c31-431c-a6b0-a35ac32f793b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{4d36d644-8139-4d4f-969f-d46bab7dd9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{3d031968-5429-46af-aa73-27a822ac8262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="process">
+      <UniqueIdentifier>{f0b480fa-6c4b-4f06-bb2f-d3ab0f2bafbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\dialogs\dialogs.cpp">
+      <Filter>dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dialogs\editattrib.cpp">
+      <Filter>dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dialogs\editpalette.cpp">
+      <Filter>dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dialogs\saveas.cpp">
+      <Filter>dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\resultswindow.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\counter.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\statusbar.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\utl_file.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\analyze.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\arithmetic.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\binary.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\color.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\convolve.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\convolve_rank.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\effects.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\geometric.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\histogram.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\kernel.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\logic.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\morphology_bin.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\morphology_gray.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\quantize.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\render.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\resize.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\statistics.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\threshold.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\tonegamut.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\transform.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\process\unarithmetic.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imagefile.cpp" />
+    <ClCompile Include="..\src\process\remotesens.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\im_clipboard.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\im_imagematch.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\im_imageview.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\histogramwindow.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\matrixwindow.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\tridimwindow.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dialogs\fullscreen.cpp">
+      <Filter>dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\bitmapwindow.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\imagewindow.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\imagedocument.cpp" />
+    <ClCompile Include="..\src\documentlist.cpp" />
+    <ClCompile Include="..\src\dialogs\imagecapture.cpp">
+      <Filter>dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\splash.cpp" />
+    <ClCompile Include="..\src\button_images.cpp" />
+    <ClCompile Include="..\src\windows\mainwindow.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\mainwindow_menu.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\mainwindow_file.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\mainwindow_image.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\windows\mainwindow_view.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\plugin_capture.cpp" />
+    <ClCompile Include="..\src\plugin_process.cpp" />
+    <ClCompile Include="..\src\imlab.cpp" />
+    <ClCompile Include="..\src\counter_preview.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\dialogs\dialogs.h">
+      <Filter>dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dialogs\imagecapture.h">
+      <Filter>dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\windows\histogramwindow.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\windows\imagewindow.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\windows\matrixwindow.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\windows\resultswindow.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\windows\tridimwindow.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\counter.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\statusbar.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\utl_file.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\process\kernel.h">
+      <Filter>process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imagefile.h" />
+    <ClInclude Include="..\src\imlab.h" />
+    <ClInclude Include="..\src\util\im_clipboard.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\im_imagematch.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\im_imageview.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\imagedocument.h" />
+    <ClInclude Include="..\src\windows\bitmapwindow.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\windows\mainwindow.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\documentlist.h" />
+    <ClInclude Include="..\src\plugin_process.h" />
+    <ClInclude Include="..\src\imlab_images.h" />
+    <ClInclude Include="..\src\counter_preview.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\imlab.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="imlab" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="..\bin\Win32.cb\imlab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="..\obj\Win32.cb\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DUSE_FFTW" />
+					<Add option="-DUSE_AVI" />
+					<Add option="-DUSE_VIDEOCAPTURE" />
+					<Add directory="..\..\iup\include" />
+					<Add directory="..\..\im\include" />
+					<Add directory="..\..\cd\include" />
+					<Add directory="..\src" />
+					<Add directory="..\src\dialogs" />
+					<Add directory="..\src\process" />
+					<Add directory="..\src\util" />
+					<Add directory="..\src\windows" />
+				</Compiler>
+				<Linker>
+          <Add library="iupimglib" />
+          <Add library="iupmatrixex" />
+          <Add library="iupim" />
+          <Add library="iup_plot" />
+          <Add library="cdgl" />
+					<Add library="iupcontrols" />
+					<Add library="iupcd" />
+					<Add library="iupgl" />
+					<Add library="iup" />
+					<Add library="cd" />
+					<Add library="freetype6" />
+					<Add library="im_process" />
+					<Add library="im_fftw" />
+					<Add library="im_avi" />
+					<Add library="im_jp2" />
+					<Add library="im_capture" />
+					<Add library="im" />
+          <Add library="ftgl" />
+          <Add library="cdcontextplus" />
+          <Add library="gdiplus" />
+          <Add library="zlib1" />
+					<Add library="glu32" />
+					<Add library="opengl32" />
+					<Add library="vfw32" />
+					<Add library="comctl32" />
+					<Add library="gdi32" />
+					<Add library="Comdlg32" />
+					<Add library="ole32" />
+					<Add library="Winspool" />
+					<Add directory="..\..\cd\lib\mingw4" />
+					<Add directory="..\..\im\lib\mingw4" />
+					<Add directory="..\..\iup\lib\mingw4" />
+					<Add directory="..\..\zlib\lib\mingw4" />
+					<Add directory="..\..\freetype\lib\mingw4" />
+					<Add directory="..\..\ftgl\lib\mingw4" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+		</Linker>
+		<Unit filename="..\src\button_images.cpp">
+		</Unit>
+		<Unit filename="..\src\plugin_capture.cpp">
+		</Unit>
+		<Unit filename="..\src\dialogs\dialogs.cpp" />
+		<Unit filename="..\src\dialogs\dialogs.h" />
+		<Unit filename="..\src\dialogs\editattrib.cpp" />
+		<Unit filename="..\src\dialogs\editpalette.cpp" />
+		<Unit filename="..\src\dialogs\fullscreen.cpp">
+		</Unit>
+		<Unit filename="..\src\dialogs\imagecapture.cpp">
+		</Unit>
+		<Unit filename="..\src\dialogs\imagecapture.h" />
+		<Unit filename="..\src\dialogs\saveas.cpp" />
+		<Unit filename="..\src\imagefile.cpp" />
+		<Unit filename="..\src\imagefile.h" />
+		<Unit filename="..\src\imlab.h" />
+		<Unit filename="..\src\imlab.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="..\src\imlab.cpp">
+		</Unit>
+		<Unit filename="..\src\process\analyze.cpp" />
+		<Unit filename="..\src\process\arithmetic.cpp" />
+		<Unit filename="..\src\process\binary.cpp" />
+		<Unit filename="..\src\process\color.cpp" />
+		<Unit filename="..\src\process\convolve.cpp" />
+		<Unit filename="..\src\process\convolve_rank.cpp" />
+		<Unit filename="..\src\process\effects.cpp" />
+		<Unit filename="..\src\process\geometric.cpp" />
+		<Unit filename="..\src\process\histogram.cpp" />
+		<Unit filename="..\src\process\kernel.cpp" />
+		<Unit filename="..\src\process\kernel.h" />
+		<Unit filename="..\src\process\logic.cpp" />
+		<Unit filename="..\src\process\morphology_bin.cpp" />
+		<Unit filename="..\src\process\morphology_gray.cpp" />
+		<Unit filename="..\src\process\quantize.cpp" />
+		<Unit filename="..\src\process\render.cpp" />
+		<Unit filename="..\src\process\resize.cpp" />
+		<Unit filename="..\src\process\statistics.cpp" />
+		<Unit filename="..\src\process\threshold.cpp" />
+		<Unit filename="..\src\process\tonegamut.cpp" />
+		<Unit filename="..\src\process\transform.cpp" />
+		<Unit filename="..\src\process\unarithmetic.cpp" />
+		<Unit filename="..\src\process\remotesens.cpp" />
+		<Unit filename="..\src\plugin_process.cpp">
+		</Unit>
+		<Unit filename="..\src\plugin_process.h" />
+		<Unit filename="..\src\splash.cpp">
+		</Unit>
+		<Unit filename="..\src\util\counter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\util\counter.h" />
+		<Unit filename="..\src\util\im_clipboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\util\im_clipboard.h" />
+		<Unit filename="..\src\util\im_imagematch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\util\im_imagematch.h" />
+		<Unit filename="..\src\util\im_imageview.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\util\im_imageview.h" />
+		<Unit filename="..\src\util\statusbar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\util\statusbar.h" />
+		<Unit filename="..\src\util\utl_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\util\utl_file.h" />
+		<Unit filename="..\src\util\utl_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\util\utl_list.h" />
+		<Unit filename="..\src\windows\bitmapwindow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\windows\histogramwindow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\windows\histogramwindow.h" />
+		<Unit filename="..\src\windows\imagewindow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\windows\imagewindow.h" />
+		<Unit filename="..\src\windows\mainwindow_menu.cpp">
+		</Unit>
+		<Unit filename="..\src\windows\mainwindow_file.cpp">
+		</Unit>
+		<Unit filename="..\src\windows\mainwindow_image.cpp">
+		</Unit>
+		<Unit filename="..\src\windows\mainwindow_view.cpp">
+		</Unit>
+		<Unit filename="..\src\windows\mainwindow.cpp">
+		</Unit>
+		<Unit filename="..\src\windows\matrixwindow.cpp">
+		</Unit>
+		<Unit filename="..\src\windows\matrixwindow.h" />
+		<Unit filename="..\src\windows\resultswindow.cpp" />
+		<Unit filename="..\src\windows\resultswindow.h" />
+		<Unit filename="..\src\windows\tridimwindow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\windows\tridimwindow.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
