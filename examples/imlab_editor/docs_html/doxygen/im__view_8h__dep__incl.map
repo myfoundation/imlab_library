@@ -1,0 +1,5 @@
+<area shape="rect" href="$processplugin_8h.html" title="Process PlugIn Management. Used by the imImageWindow." alt="" coords="30,82,145,109">
+<area shape="rect" href="$imagewindow_8h.html" title="Image Window The window that holds the image and the process menu." alt="" coords="169,82,281,109">
+<area shape="rect" href="$histogramwindow_8h.html" title="Histogram Window." alt="" coords="8,157,144,184">
+<area shape="rect" href="$matrixwindow_8h.html" title="Matrix Window." alt="" coords="168,157,282,184">
+<area shape="rect" href="$tridimwindow_8h.html" title="3D Window" alt="" coords="306,157,418,184">

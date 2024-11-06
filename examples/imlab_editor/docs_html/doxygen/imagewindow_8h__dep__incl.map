@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$bitmapwindow_8h.html" title="Bitmap Window." alt="" coords="5,83,120,112"/>
+<area shape="rect" id="node5" href="$histogramwindow_8h.html" title="Histogram Window." alt="" coords="144,83,275,112"/>
+<area shape="rect" id="node7" href="$matrixwindow_8h.html" title="Matrix Window." alt="" coords="299,83,408,112"/>
+<area shape="rect" id="node9" href="$tridimwindow_8h.html" title="3D Window" alt="" coords="432,83,539,112"/>
+</map>
