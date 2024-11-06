@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classimlab3DWindow.html" title="imlab3DWindow" alt="" coords="5,83,120,112"/>
+<area shape="rect" id="node5" href="$classimlabBitmapWindow.html" title="imlabBitmapWindow" alt="" coords="144,83,283,112"/>
+<area shape="rect" id="node7" href="$classimlabHistogramWindow.html" title="imlabHistogramWindow" alt="" coords="307,83,464,112"/>
+<area shape="rect" id="node9" href="$classimlabMatrixWindow.html" title="imlabMatrixWindow" alt="" coords="488,83,621,112"/>
+</map>

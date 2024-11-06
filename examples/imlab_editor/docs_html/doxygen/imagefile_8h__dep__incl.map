@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$imagedocument_8h.html" title="Image Document." alt="" coords="119,83,244,112"/>
+<area shape="rect" id="node26" href="$dialogs_8h.html" title="Some usefull dialogs." alt="" coords="268,83,343,112"/>
+<area shape="rect" id="node5" href="$counter__preview_8h.html" title="Counter and Preview Management." alt="" coords="21,237,147,267"/>
+<area shape="rect" id="node7" href="$plugin__process_8h.html" title="Process PlugIn Management. Used by the imlabImageDocument." alt="" coords="24,315,144,344"/>
+<area shape="rect" id="node9" href="$documentlist_8h.html" title="Document List." alt="" coords="128,160,235,189"/>
+<area shape="rect" id="node14" href="$imagewindow_8h.html" title="Image Window Base class for all image windows." alt="" coords="309,160,419,189"/>
+<area shape="rect" id="node24" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="443,160,544,189"/>
+<area shape="rect" id="node16" href="$bitmapwindow_8h.html" title="Bitmap Window." alt="" coords="352,237,467,267"/>
+<area shape="rect" id="node18" href="$histogramwindow_8h.html" title="Histogram Window." alt="" coords="491,237,621,267"/>
+<area shape="rect" id="node20" href="$matrixwindow_8h.html" title="Matrix Window." alt="" coords="645,237,755,267"/>
+<area shape="rect" id="node22" href="$tridimwindow_8h.html" title="3D Window" alt="" coords="221,237,328,267"/>
+</map>
