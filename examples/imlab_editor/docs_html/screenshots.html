@@ -1,0 +1,91 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+<title>IMLAB Screenshots</title>
+<meta http-equiv="Content-Language" content="en-us">
+<meta content="Microsoft FrontPage 12.0" name="GENERATOR">
+<meta content="FrontPage.Editor.Document" name="ProgId">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+.style1 {
+	text-align: left;
+}
+.style2 {
+	border-style: solid;
+	border-width: 2px;
+}
+.style3 {
+	text-align: center;
+}
+</style>
+</head>
+
+<body bgcolor="#ffffff">
+
+<h2 class="style1">Screenshots</h2>
+<table style="width: 100%" align="center" cellpadding="10">
+	<tr>
+		<td class="style3"><a href="images/imlab.png">
+		<img src="images/imlab_small.png" xthumbnail-orig-image="images/imlab.png" class="style2"></a><br>
+		<strong>ImLab Overview</strong></td>
+		<td class="style3"><a href="images/imlab_process.png">
+		<img src="images/imlab_process_small.png" xthumbnail-orig-image="images/imlab_process.png" class="style2"></a><br>
+		<strong>Overview of the Process Menu</strong></td>
+	</tr>
+	<tr>
+		<td class="style3"><a href="images/imlab_views.png">
+		<img src="images/imlab_views_small.png" xthumbnail-orig-image="images/imlab_views.png" class="style2"></a><br>
+		<strong>Bitmap</strong> View, <strong>Histogram</strong> View, <br>
+		<strong>Matrix</strong> View and <strong>3D</strong> View</td>
+		<td class="style3"><a href="images/imlab_info.png">
+		<img src="images/imlab_info_small.png" xthumbnail-orig-image="images/imlab_info.png" class="style2"></a><br>
+		<strong>Image Information, Image Attributes, and Log</strong></td>
+	</tr>
+	<tr>
+		<td class="style3"><a href="images/imlab_preview.png">
+		<img src="images/imlab_preview_small.png" xthumbnail-orig-image="images/imlab_preview.png" class="style2"></a><br>
+		<strong>Processing Preview</strong></td>
+		<td class="style3"><a href="images/imlab_fourier.png">
+		<img src="images/imlab_fourier_small.png" xthumbnail-orig-image="images/imlab_fourier.png" class="style2"></a><br>
+		<strong>Fourier Transform Filtering</strong><div class="style1">
+			imlab[&quot;au.tif&quot;] = imlab.LoadImage{filename=&quot;\imlab\_samples\au.tif&quot;, 
+			index=-1}<br>imlab[&quot;au.tif&quot;].FFT{}<br>imlab[&quot;Duplicate of au.tif&quot;] = 
+			imlab.Duplicate{image=&quot;au.tif&quot;}<br>imlab[&quot;Duplicate of au.tif&quot;].ConvertDataType{datatype=&quot;float&quot;, 
+			cpx2real=&quot;Magnitude&quot;, gamma=0, abssolute=0, cast_mode=&quot;Scan MinMax&quot;}<br>
+			imlab[&quot;Duplicate of au.tif&quot;].RenderWheel{in_radius=80, ex_radius=110}<br>
+			imlab[&quot;Duplicate of au.tif&quot;].GaussianConvolve{stddev=5}<br>imlab[&quot;au.tif&quot;].ArithmeticOp{image=&quot;Duplicate 
+			of au.tif&quot;, op=&quot;a * b&quot;}<br>imlab[&quot;au.tif&quot;].IFFT{}<br>imlab[&quot;au.tif&quot;].ConvertDataType{datatype=&quot;float&quot;, 
+			cpx2real=&quot;Magnitude&quot;, gamma=0, abssolute=0, cast_mode=&quot;Scan MinMax&quot;}<br>
+			imlab[&quot;au.tif&quot;].ToneGamut{op=&quot;Brightness And Contrast&quot;, param={47.6913, 
+			0}}</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="style3"><a href="images/imlab_hough.png">
+		<img src="images/imlab_hough_small.png" xthumbnail-orig-image="images/imlab_hough.png" class="style2"></a><br>
+		<strong>Hough Lines Transform Application</strong><div class="style1">
+			imlab[&quot;8255.tif&quot;] = imlab.LoadImage{filename=&quot;\imlab\_samples\8255.tif&quot;, 
+			index=-1}<br>imlab[&quot;8255.tif&quot;].Canny{stddev=2}<br>imlab[&quot;8255.tif&quot;].Threshold{level=90, 
+			value=1, negative=0}<br>imlab[&quot;HoughLines of 8255.tif&quot;] = 
+			imlab.HoughLines{image=&quot;8255.tif&quot;}<br>imlab[&quot;HoughLines of 
+			8255.tif&quot;].LocalMaxThreshold{kernel_size=7, min_thres=60}<br>imlab[&quot;HoughLinesDraw 
+			of 8255.tif&quot;] = imlab.HoughLinesDraw{image=&quot;8255.tif&quot;}</div>
+		</td>
+		<td class="style3"><a href="images/imlab_analyze.png">
+		<img src="images/imlab_analyze_small.png" xthumbnail-orig-image="images/imlab_analyze.png" class="style2"></a><br>
+		<strong>Image Analysis and Measure</strong><br>
+		<div class="style1">
+			imlab[&quot;blood.tif&quot;] = imlab.LoadImage{filename=&quot;\imlab\_samples\blood.tif&quot;, 
+			index=-1}<br>imlab[&quot;blood.tif&quot;].PercentThreshold{level=111, 
+			negative=0}<br>imlab[&quot;blood.tif&quot;].FillHoles{}<br>imlab[&quot;blood.tif&quot;].RemoveByArea{connect=4, 
+			start_size=0, end_size=50}<br>imlab[&quot;blood.tif&quot;].FindRegions{connect=4, 
+			touch_border=0}</div>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

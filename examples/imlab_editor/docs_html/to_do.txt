@@ -1,0 +1,89 @@
+Erro ao modificar atributo - pau
+
+**** IM Counter for All Operations
+Preview
+  Rotate
+  Threshold Color
+  Custom Gamma
+
+*** Undo History Window
+  More flexible Undo for attributes and palette
+** Tools - Select (Line, Rectangle, Polygon, Elipse), Painter, Line Profile, Measure
+More Measures
+Link the Labeled Image Window with the Results Window
+
+Affine Transform
+Rotate by Line
+Image Calibration Density
+
+Tab Interface + Document/View Tree
+
+=========================================================================
+
+* Help Window
+
+IM Jasper
+IM libjpeg turbo  
+IM new image.Process*
+test OpenMP
+
+=========================================================================
+
+mostrar/customizar Min e Max usados no ConvertType   "UserMin" and "UserMax"
+results é um tipo de documento diferente com Save e Open
+escala de tons usada no ConvertType para localizar um determinado valor original
+
+=========================================================================
+Codificar em tom de cinza algum parâmetro. 
+    Isto permite depois olhar para um histograma da imagem codificada e 
+    segmentar pelo valor deste parâmetro. 
+    Cogitar da possibilidade mostrar histogramas das medidas diretamente ou 
+    até mesmo um histograma bivariável de dois parâmetros simultaneamente.
+       eixo horizontal parametro
+       eixo vertical/quantidade de objetos ou percentual
+
+imagem no plano grafico
+
+=========================================================================
+
+Ainda com relação às operações morfológicas, seria legal ser mais versátil 
+no controle do elemento estruturante que define quais são os pixels relevantes em uma vizinhança qualquer. 
+Como está você está sempre ativando todos os pixels para fazer a análise. 
+Mas este é um requisito muitas vezes forte demais. Caso você opte por permitir ao usuário escolher a forma do elemento estruturante, 
+é evidente que isto não poderá ser feito para vizinhanças de qualquer tamanho, 
+apenas para vizinhanças pequenas, porque senão o número de opções de elemento estruturante seria enorme.
+
+=========================================================================
+
+No Measure 
+- Eliminar Principal de todos
+- Incluir mais um parâmetro de tamanho
+DCircle = sqrt(4AreaF/Pi)
+- Incluir parâmetros de forma:
+Fatores de forma circular
+Baseado no Perímetro
+Fcircle = 4Pi . AREAF / Sqr(PERIMF) - F é de Filled
+É sensível à irregularidade do contorno do objeto.
+Baseado no Feret Máximo
+ = 4AREAF / Pi.Sqr(Fmax)
+Mais sensível ao elongamento do objeto do que à irregularidade de seu contorno.
+O mais simples é o FeretRatio ou AspectRatio
+AR = FMIN/FMAX
+  onde F corresponde a uma axis (Major Axis = FeretMax)
+
+Incluir medidas de parâmetros convexos (AREAC e PERIMC) e medidas de convexidade a partir deles
+Medidas de Convexidade 
+  Valem 1 para um objeto convexo e diminuem para objetos não convexos.
+PERIMC/PERIM ou PERIMC/PERIMF
+  Decai rapidamente para objetos com penínsulas finas e compridas.
+AREA/AREAC ou AREAF/AREAC.
+  Menos sensível à presença de penínsulas finas.
+
+Pensar no recurso de estabelecer um string de condições de faixas de valores dos parâmetros com combinações lógicas.
+
+===================================================================
+
+9) É MUITO importante ter uma maneira de calibrar o tamanho do pixel em alguma unidade do mundo real (mm, km, µm) etc. 
+Para calibrar, deve-se usar algum objeto com tamanho conhecido na própria imagem, marcá-lo e informar o tamanho físico, 
+ou importar a escala de outra imagem já calibrada ou, ainda, permitir ao usuário que entre com o tamanho do pixel diretamente na unidade que desejar. 
+A partir daí, qualquer medida deve ser dada na unidade correta.

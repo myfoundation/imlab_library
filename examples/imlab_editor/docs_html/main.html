@@ -1,0 +1,187 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+<title>IMLAB</title>
+<meta http-equiv="Content-Language" content="en-us">
+<meta content="Microsoft FrontPage 12.0" name="GENERATOR">
+<meta content="FrontPage.Editor.Document" name="ProgId">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+<!--
+.text {
+  position: absolute;
+  top: 160px;
+  left: 30%;
+  width: 65%;
+  color: #000;
+  background-color: #FFF;
+}
+
+.text h4.versionchange {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.style1 {
+	border-width: 0px;
+}
+
+.style2 {
+	text-decoration: underline;
+}
+
+.auto-style1 {
+	color: #C0C0C0;
+	font-weight: bold;
+}
+
+.auto-style2 {
+	padding: 10 20 10 20;
+	font-family: Helvetica, Arial;
+}
+
+-->
+</style>
+</head>
+
+<body bgcolor="#ffffff">
+
+    <h1 align="center"><span style="font-weight: 400">
+	<span class="auto-style2"><strong>A Free Experimental System for Image&nbsp;Processing</strong></span><br>
+    </span><font size="4"><font face="Arial">Antonio Scuri</font><span style="font-weight: 400"> (<a href="mailto:scuri@tecgraf.puc-rio.br">scuri@tecgraf.puc-rio.br</a>)<br>
+    <a href="http://imlab.sourceforge.net/">http://imlab.sourceforge.net/</a></span></font></h1>
+
+<h2><a name="abstract">Abstract</a></h2>
+<p><b>ImLab </b>is a free open source graphical application for Scientific Image Processing that runs in Windows, 
+  Linux and many other UNIX systems. It supports multiple windows, data types including 32 bit integers, 32 bit real 
+  numbers and complex numbers. It is implemented in C++ and C to provide a very simple way to add new functions. 
+  It has many image operations and supports several file formats.</p>
+<h2><a name="overview">Overview</a></h2>
+<p>This program has been created to serve as a laboratory to implement routines of 
+Image Processing for the <strong>IM</strong> toolkit. 
+<b>ImLab </b>was 
+  build using <a target="_blank" href="http://www.tecgraf.puc-rio.br/iup">IUP</a> (interface),
+  <a target="_blank" href="http://www.tecgraf.puc-rio.br/cd">CD</a> (drawing) and
+  <a target="_blank" href="http://www.tecgraf.puc-rio.br/im">IM</a> (imaging) libraries. It runs in Windows, Linux, SGI 
+  IRIX, SunOS, IBM AIX and MacOS X (using X-Windows).</p>
+<p>The Tecgraf libraries and <b>ImLab </b>are free for academic and commercial use. See the 
+<a href="copyright.html">copyright</a> 
+  note of <b>ImLab</b>. </p>
+	<p><strong>ImLab</strong> is registered at the National Institute of 
+	Intellectual Property in Brazil (INPI) under the code BR 51 2016 001656-6, 
+	and so it is protected against illegal use. The registration is valid 
+	internationally.</p>
+<p>Its interface is very simple that means it still does not have direct image manipulation. However, it can be 
+  extended for that purpose.</p>
+<p>It does not have a generic plug-in extension mechanism, but creating new functions in the &quot;<i>Process</i>&quot; menu is 
+  quite simple and very similar to a plug-in. </p>
+<p><b>ImLab </b>is implemented in C and C++, but aiming simplicity I did not use complex classes to model images and 
+  other objects. I do use some C++ templates to implement processing routines for 
+  the available data types, the code is rather simple to understand, even for those who do not know this mechanism.</p>
+<p>In several situations <b>ImLab </b>can be the ideal program to develop new Image Processing algorithms, articles, 
+  thesis and dissertations.&nbsp; If you are interested in using <b>ImLab </b>download the source code and/or the 
+  executable. If you find it useful and would like to contribute, forward your work in 
+<b>ImLab </b>to me and I will 
+  include it in the next distribution. And I hope to be able to help so as to make this feasible.</p>
+<p><span class="style2">Support</span> is provided whenever I can, usually during my free time and weekends. I 
+recommend using the mailing list, 
+  you do not have to subscribe to send a message and mail is moderated, so to subscribe is a good idea 
+so you can receive 
+  update notifications. This is a very low traffic list. The list is hosted in a
+  <a href="https://lists.sourceforge.net/lists/listinfo/imlab-users">SourceForge List</a>.</p>
+<p>See some screen captures of the program in <a href="screenshots.html">Screenshots</a>.</p>
+<p>See the list of <b>ImLab </b><a href="features.html">Features</a>. Most of them are inherited from the IM library.</p>
+<p>Some algorithm implementation was derived from 
+<a target="_blank" href="http://www.ifi.uio.no/~blab/Software/Xite/">XITE</a>, here is their respective 
+<a href="xite_copyright.html">copyright</a>.</p>
+<h2><a name="history">Origins</a></h2>
+<p>My first important Image Processing System was
+  <a target="_blank" href="http://www.tecgraf.puc-rio.br/~scuri/spid13">SPID</a> in 1993/1994. It was developed using 
+  Borland C++ 4 in the Win32s subsystem (hard times). Borland changed the OWL library and the code became 
+not reusable. 
+  So I give up and started to plan for a new version with other tools. But the opportunity never came, so I decided to 
+  start a small system to help me implement and test some routines.</p>
+<p><b>ImLab </b>was conceived during the course 
+<a target="_blank" href="http://www.visgraf.impa.br/Courses/ipcg.html">&quot;Image Processing for Computer Graphics&quot;</a> that I did in 1997.</p>
+<p>It was updated for the course 
+<a target="_blank" href="http://www.tecgraf.puc-rio.br/~scuri/inf1378">&quot;Processamento Digital de Imagens&quot;</a> 
+  that I present in 2002. At the time the code was highly rearranged to facilitate 
+  understanding. I also generated a page for the program and executables for several platforms.</p>
+<p>In 2004, almost all the image processing code was moved to the
+  <a target="_blank" href="http://www.tecgraf.puc-rio.br/im">IM</a> toolkit, building a major release version of that library, 
+	with also several improvements for both IM and ImLab.</p>
+<p>Since then it is being periodically updated and improved. Check the list of changes in 
+<a href="history.html">History</a>. Also there is a list of <a href="to_do.html">To Do's</a>. What still makes 
+<b>ImLab </b>an &quot;experimental&quot; system is 
+  marked in color.</p>
+<h2><a name="thanks">Thanks</a></h2>
+<p>I would like to thank everyone that directly contributed or tested <b>ImLab</b>:</p>
+<blockquote>
+	<p>Antonio Calomeni<br>
+    Bruno Madeira<br>
+    Diego Santos<br>
+    Felipe Portella<br>
+    Flavio Szenberg<br>
+    Guy Lecomte<br>
+    Jean-Pierre Dumas<br>
+    Leandro Nazareth<br>
+    Lucas Machado<br>
+    Marcelo Gattass<br>
+    Sidnei Paciornik<br>
+	Takeshi Mitsunaga</p>
+</blockquote>
+<h2><a name="others">Other Systems</a></h2>
+<p>There are other free systems like <b>ImLab</b>. It is hard to compare because 
+<b>ImLab </b>is not fully 
+  operational. It is interesting to note that there is only one portable system with free open source code equivalent to
+  <b>ImLab</b>, but it is in Java. So <b>ImLab </b>is still a good option for C/C++ programmers.</p>
+<p><b>ImageJ</b></p>
+<blockquote>
+	<p>Last Update 2017-06 / Version 1.51o<br>
+	<a href="https://imagej.net/">https://imagej.net/</a> or
+	<a href="https://imagej.nih.gov/ij/" target="_blank">https://imagej.nih.gov/ij/</a><br>
+    Language Java<br>
+    NIH Image was one of the first free image processing system. Originally runs 
+	only in old Macs. There are lots of variations from it, including a Windows 
+    version. <strong>ImageJ</strong> was inspired in the NIH Image and it has been constantly updated 
+	since then. Has a 
+    very wide number of users, and innumerous features with several collections 
+	of plugins.</p>
+	<p>Fiji <span>is an image processing package—a &quot;batteries-included&quot; 
+	distribution of&nbsp;</span><a href="https://imagej.net/">ImageJ</a><span>, 
+	bundling a lot of plugins which facilitate scientific image analysis.</span></p>
+</blockquote>
+<p><b>CVIPtools</b></p>
+<blockquote>
+	<p>Last Update 2016-05 / Version 5.6j<br>
+	<a href="http://cviptools.ece.siue.edu/">http://cviptools.ece.siue.edu/</a><br>
+    Language C and C#<br>
+    Windows Only since version 4.4<br>
+    A god set of functions. Very confuse user interface.</p>
+</blockquote>
+<p class="auto-style1">ImageTool</p>
+<blockquote>
+	<p>Last Update 2002-05 / Version 3.0<br>
+	<a target="_blank" href="http://ddsdx.uthscsa.edu/dig/itdesc.html">http://ddsdx.uthscsa.edu/dig/itdesc.html</a> 
+	(not working)<br>
+    Language C++<br>
+    Windows Only<br>
+    A god set of functions. Not updated for a long time. Not portable.</p>
+</blockquote>
+<p class="auto-style1">NeatVision</p>
+<blockquote>
+	<p>Last Update 2003-10 / Version 2.1<br>
+	<a target="_blank" href="http://www.neatvision.com/">http://www.neatvision.com/</a> 
+	(not working)<br>
+    Language Java<br>
+    Very powerful but hard to install. Only works with a specific version of the JRE. Has a very interesting development 
+    environment with visual programming. Not updated for a long time.</p>
+</blockquote>
+<hr>
+<p>Last update: 17 /&nbsp;Jun / 2017</p>
+
+</body>
+
+</html>

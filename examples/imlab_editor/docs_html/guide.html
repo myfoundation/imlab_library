@@ -1,0 +1,85 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+<title>IMLAB Guide</title>
+<meta http-equiv="Content-Language" content="en-us">
+<meta content="Microsoft FrontPage 12.0" name="GENERATOR">
+<meta content="FrontPage.Editor.Document" name="ProgId">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+.style1 {
+	text-align: left;
+}
+</style>
+</head>
+
+<body bgcolor="#ffffff">
+
+<h2 class="style1">Quick Guide</h2>
+<p>Here is a brief guide about <b>ImLab</b>. I also created a simple 
+<a href="doxygen/index.html">internal 
+  documentation&nbsp;</a> of headers to help the development of new functionalities. The documentation was created through 
+  comments on the source code itself then running the 
+<a target="_blank" href="http://www.doxygen.org/">Doxygen</a> 
+  tool. A Help system is missing, so another way to understand some operations is to look at the source code or send me 
+  an e-mail.</p>
+<p><b>ImLab</b> works with&nbsp;the IM&nbsp;image structure definition. The IM manual is very extensive and should be consulted, 
+  see <a target="_blank" href="http://www.tecgraf.puc-rio.br/im">http://www.tecgraf.puc-rio.br/im</a>.</p>
+<p>See the list of <b>ImLab</b> <a href="features.html">Features</a>.</p>
+<h3>Main Window</h3>
+<p>To mimic the Windows Multi Document Interface independent from platform and using IUP, 
+<b>ImLab</b> has a main 
+  window that starts &quot;maximized&quot;. From this window you can start all 
+the operations. The image windows will be secondary windows that can be freely 
+arranged. The main window also contains a log area where operations send textual information. </p>
+<h3>Input/Output</h3>
+<p>Files are loaded and saved by the IM library, so the file formats supported are directly related to the file 
+  formats supported by the IM library. Files can be opened from the menus, from the command line and from drag and drop 
+from 
+  Windows Explorer or from Gnome Nautilus. Frames from multipaged files and video files are imported as independent images, this is not a 
+  solution that I like, but is the solution for now. The file attributes are 
+also available for simple editing.</p>
+<p>When files are loaded or created a document is created that contains an image 
+and a file format.</p>
+<p>You can also copy and paste images from the clipboard in Windows and capture from Direct Show devices. 
+It is possible to capture from two different sources at the same time but this 
+is very hardware dependent.</p>
+<h3>Views</h3>
+<p>The CD library is used to print the image and to draw the image in a window canvas. Also it is used to import and 
+  export some graphics files. </p>
+<p>In order to visualize the many available types of images it is necessary to convert to a bitmap image. This 
+  conversion is done automatically but can be controlled in the View menu. For example, images resulting from Fourier 
+  transform are complex, standard visualization uses the magnitude of the complex number, but also could be the phase, 
+  the real part or the imaginary part.&nbsp; In addition, to improve quantization it is possible to use a logarithmic 
+  function to expand the contrast.</p>
+<p>The secondary views of the same image document are updated when the image is 
+changed. Also the Matrix view can change the image data and everything will be 
+also updated. If you click in the image all the Matrix views will scroll to that 
+position, and the pixel value will be copied to the log. Clicking in the 
+Histogram will also copy its value to the log. When viewing the image in full 
+screen pressing the arrow keys will cycle to the next image in the 
+  list of the opened windows.</p>
+<h3>Processing</h3>
+<p>After processing an image, the new document title is changed to reflect the operation. If it gets to big you can 
+  rename it from the menu. When the processing does not creates a new document the title is not changed. The new 
+document 
+  inherit the properties of the original one including file format and attributes. </p>
+<p>When an operation requires more 
+  than one image, the other images are listed in a dialog, the current image will appear selected.</p>
+<p>Some processing functions can change the image type to improve the accuracy of the 
+  results.</p>
+<p>To add a menu item to the &quot;Process&quot; menu, edit one of the existent files at the &quot;src/process&quot; folder and observe 
+  how the other items are implemented. To create a new submenu or an item directly in the&nbsp; &quot;Process&quot; menu, besides 
+  having to create a file similar to the existing ones, you will edit the &quot;plugin_process.cpp&quot; file and add the new Plug-In 
+  in the desired position.</p>
+<h3>Results</h3>
+<p>After analyzing an image to find regions you can measure those regions for a 
+few parameters. The result of the measures is displayed in a sheet that can be 
+saved in CSV (comma separated value) format that it is automatically recognized 
+by Excel and other similar programs. This table can be edited.</p>
+
+</body>
+
+</html>
